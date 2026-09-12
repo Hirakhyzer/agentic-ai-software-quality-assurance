@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/bannerrr.png" alt="Agentic AI Software Quality Assurance" width="100%">
+</p>
+
 # Agentic AI Software Quality Assurance
 
 [![CI](https://github.com/Hirakhyzer/agentic-ai-software-quality-assurance/actions/workflows/ci.yml/badge.svg)](https://github.com/Hirakhyzer/agentic-ai-software-quality-assurance/actions/workflows/ci.yml)
@@ -12,30 +16,13 @@ A reproducible research framework for **runtime-grounded agentic AI in software 
 
 **Can specialized software-QA agents collaborate more reliably when their decisions are grounded in runtime evidence such as failing executions, stack traces, and line traces, rather than relying mainly on static source artifacts?**
 
-```text
-Developer / issue specification
-          |
-          v
-     QA Coordinator
-          |
-   +------+------+----------------+
-   |             |                |
-Reproducer   Test Generator   Runtime Analyst
-   |             |                |
-   +-------------+----------------+
-                 |
-           Evidence Store
-                 |
-          Fault Localizer
-                 |
-            Repair Agent
-                 |
-         Verification Agent
-                 |
-        +--------+---------+
-        |                  |
-   accept patch       human review
-```
+## Runtime-grounded QA pipeline
+
+<p align="center">
+  <img src="assets/pipeline.png" alt="Runtime-Grounded Agentic Software QA Pipeline" width="92%">
+</p>
+
+The pipeline coordinates issue reproduction, test generation, runtime analysis, evidence aggregation, fault localization, repair, and verification under explicit developer control. Candidate fixes are accepted only when the available evidence supports them; otherwise the workflow escalates to human review or another iteration.
 
 ## Implemented in v0.1
 
