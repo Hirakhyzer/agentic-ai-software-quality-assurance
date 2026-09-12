@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Agentic AI Software Quality Assurance"
+message: "If you use this research software, please cite this repository and the exact commit."
+type: software
+authors:
+  - family-names: Khyzer
+    given-names: Hira
+repository-code: "https://github.com/Hirakhyzer/agentic-ai-software-quality-assurance"
+version: 0.1.0
+date-released: 2026-09-13
+license: MIT

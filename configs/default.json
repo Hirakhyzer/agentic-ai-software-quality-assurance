@@ -1,0 +1,6 @@
+{
+  "mode": "runtime_grounded",
+  "max_candidates": 4,
+  "max_evidence_lines": 12,
+  "generated_test_limit": 6
+}

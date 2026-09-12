@@ -1,0 +1,29 @@
+{
+  "runtime_evidence_gain": {
+    "correct_patch_rate": 0.125,
+    "plausible_patch_rate": 0.0,
+    "top1_localization_accuracy": -0.25
+  },
+  "runtime_grounded": {
+    "cases": 8,
+    "correct_patch_rate": 1.0,
+    "human_review_rate": 0.0,
+    "mean_candidates_considered": 1.125,
+    "overfit_patch_rate": 0.0,
+    "plausible_patch_rate": 1.0,
+    "reproduction_rate": 1.0,
+    "top1_localization_accuracy": 0.625,
+    "top3_localization_accuracy": 1.0
+  },
+  "static_only": {
+    "cases": 8,
+    "correct_patch_rate": 0.875,
+    "human_review_rate": 0.125,
+    "mean_candidates_considered": 1.0,
+    "overfit_patch_rate": 0.125,
+    "plausible_patch_rate": 1.0,
+    "reproduction_rate": 1.0,
+    "top1_localization_accuracy": 0.875,
+    "top3_localization_accuracy": 1.0
+  }
+}
